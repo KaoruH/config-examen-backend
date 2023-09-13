@@ -21,9 +21,9 @@ spring:
 
 queue:
   movie:
-    genre: MovieQueue
+    name: MovieQueue
   serie:
-    genre: SerieQueue
+    name: SerieQueue
 
 eureka:
   client:
