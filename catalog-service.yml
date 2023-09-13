@@ -88,6 +88,10 @@ resilience4j:
         retryExceptions:
           - feign.FeignException$InternalServerError
 
+management:
+  health:
+    circuitbreakers:
+      enabled: true
 
 eureka:
   client:
